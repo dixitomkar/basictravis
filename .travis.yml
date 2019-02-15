@@ -1,18 +1,18 @@
 language: ruby
-rvm:
- - 2.2
- - jruby
+rvm: 
+  - 2.2
+  - jruby
 
-deploy:
-  - provider: script
-  skip_cleanup: true
-  script: "./abc.sh"
-  on:
-    branch: master
-  
-  - provider: script
-  skip_cleanup: true
-  script: "./def.sh"
-  on:
-    branch: release
-
+deploy: 
+  - 
+    provider: script
+    script: ./abc.sh
+    skip_cleanup: true
+    true: 
+      branch: master
+  - 
+    provider: script
+    script: ./def.sh
+    skip_cleanup: true
+    true: 
+      branch: release
