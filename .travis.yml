@@ -1,7 +1,5 @@
-language: ruby
-rvm: 
-  - 2.2
-  - jruby
+language: node_js
+node_js: 8.11.4
 
 deploy: 
   - 
