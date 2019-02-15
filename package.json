@@ -68,6 +68,6 @@
     "start": "pm2 start pm2-dev.config.js",
     "start:prod": "pm2 start pm2-prod.config.js",
     "start:prod-docker": "pm2-docker pm2-prod.config.js",
-    "test": ""
+    "test": "echo "here" "
   }
 }
